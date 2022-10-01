@@ -30,7 +30,7 @@ class Students:
         sheet['A2'] = "Isa Muhammed"
         sheet['B2'] = "10"
         sheet['C2'] = "30"
-        sheet['D2'] = 10 + 30
+        sheet['D2'] = 30 + 30
         studentDatabase.save(filename="studentDatabase.xlsx")
 
         msg = Label(self.fram, text="Save Successfull")
